@@ -20,6 +20,10 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: 500;
 }
 
+h2 {
+    font-size: 35px;
+}
+
 p {
     color: #4F5665;
     font-weight: 400;
@@ -148,7 +152,51 @@ p {
     gap: 30px;
 }
 
-.features .features-card:nth-child(2) {
+.features .col-3:not(:last-child) {
     border-right: 2px solid #EEEFF2;
-    border-left: 2px solid #EEEFF2;
+}
+
+.many-features {
+    margin-top: 95px;
+}
+
+.many-features h2 {
+    line-height: 50px; /* 142.857% */
+    margin-top: 52px;
+}
+
+.many-features p {
+    margin: 20px 0;
+    font-size: 16px;
+    line-height: 30px; /* 187.5% */
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+
+.option-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.option-item p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 30px; /* 214.286% */
+}
+
+/* Plan-selection */
+
+.plan-selection-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.plan-selection-text p {
+    width: 555px;
 }
