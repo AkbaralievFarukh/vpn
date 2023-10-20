@@ -50,6 +50,11 @@ p {
     height: 100%;
 }
 
+.col-2 {
+    width: 16.66%;
+    padding: 15px;
+}
+
 .col-3 {
     width: 25%;
     padding: 15px;
@@ -365,6 +370,73 @@ p {
     line-height: 30px;
 }
 
-.global-map-img {
+.SponsorTestimonials {
+    margin-top: 35px;
+}
 
+.sponsored {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.customer-text {
+    margin-top: 125px;
+}
+
+.customer-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.customer-text h2 {
+    width: 447px;
+}
+
+.customer-text p {
+    width: 555px;
+}
+
+.client-wrapper {
+    margin-top: 60px;
+}
+
+.client {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.client-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.client-name {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.client-review {
+    display: flex;
+    align-items: center;
+}
+
+.client-review-text {
+    color: #0B132A;
+    font-size: 16px;
+    line-height: 30px; /* 187.5% */
+}
+
+.client-card {
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid #F53838;
 }
