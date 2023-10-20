@@ -228,6 +228,10 @@ p {
     line-height: 30px; /* 187.5% */
 }
 
+.many-features .col-6:nth-child(2) {
+    padding-left: 155px;
+}
+
 .option {
     display: flex;
     flex-direction: column;
