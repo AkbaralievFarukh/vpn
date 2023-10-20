@@ -304,6 +304,13 @@ p {
     margin-bottom: 20px;
 }
 
+.plan-selection-card h3 span {
+    color: #4F5665;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
 .plan-selection-card button {
     border-radius: 50px;
     border: 2px solid #F53838;
