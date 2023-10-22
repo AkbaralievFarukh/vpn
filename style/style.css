@@ -35,6 +35,10 @@ p {
     font-weight: 400;
 }
 
+button {
+    cursor: pointer;
+}
+
 .container {
     max-width: 1140px;
     margin: 0 auto;
@@ -438,5 +442,33 @@ p {
 .client-card {
     padding: 30px;
     border-radius: 10px;
+    border: 2px solid #DDD;
+}
+
+.client-card:hover {
     border: 2px solid #F53838;
+}
+
+
+.pagination-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.pagination {
+    background-color: transparent;
+    border: none;
+}
+
+.previous-btn, .next-btn {
+    background-color: transparent;
+    padding: 15px;
+    border: 2px solid #F53838;
+    border-radius: 50%;
+}
+
+.next-btn {
+    background-color: #F53838;
 }
