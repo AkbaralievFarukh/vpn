@@ -30,6 +30,11 @@ h2 {
     font-size: 35px;
 }
 
+h4 {
+    font-size: 18px;
+    line-height: 30px; /* 166.667% */
+}
+
 p {
     color: #4F5665;
     font-weight: 400;
@@ -305,9 +310,7 @@ button {
     padding: 15px 25px;
 }
 
-.plan-selection-card h4 {
-    font-size: 18px;
-    line-height: 30px; /* 166.667% */
+.plan-selection-card {
     margin: 30px 0;
 }
 
@@ -376,6 +379,10 @@ button {
 
 .SponsorTestimonials {
     margin-top: 35px;
+}
+
+.SponsorTestimonials .container {
+    position: relative;
 }
 
 .sponsored {
@@ -455,6 +462,7 @@ button {
     justify-content: space-between;
     align-items: center;
     margin-top: 80px;
+    margin-bottom: 170px;
 }
 
 .pagination {
@@ -471,4 +479,72 @@ button {
 
 .next-btn {
     background-color: #F53838;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 58px 70px;
+    border-radius: 10px;
+    background: #FFF;
+    position: absolute;
+    width: 1140px;
+    box-shadow: 0px 0px 20px 9px rgba(34, 60, 80, 0.2);
+}
+
+.subscribe div:nth-child(1) {
+    max-width: 370px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* footer */
+
+.footer {
+    background-color: #F8F8F8;
+    padding: 180px 0 140px 0;
+    margin-top: 180px;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.company-info {
+    max-width: 340px;
+}
+
+.company-info p {
+    margin: 26px 0 30px 0;
+}
+
+.copyright {
+    color: #AFB5C0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+}
+
+.copyright span {
+    font-weight: 500;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-links a {
+    color: #4F5665;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+}
+
+.footer h4 {
+    margin-bottom: 20px;
 }
