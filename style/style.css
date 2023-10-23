@@ -281,7 +281,7 @@ button {
     align-items: center;    
     text-align: center;
     gap: 20px;
-    margin-bottom: 45px;
+    margin-bottom: 60px;
 }
 
 .plan-selection-text p {
@@ -308,10 +308,6 @@ button {
 
 .plan-selection .col-4 {
     padding: 15px 25px;
-}
-
-.plan-selection-card {
-    margin: 30px 0;
 }
 
 .plan-selection-card h3 {
@@ -435,6 +431,10 @@ button {
     gap: 5px;
 }
 
+.client-name p {
+    font-size: 14px;
+}
+
 .client-review {
     display: flex;
     align-items: center;
@@ -485,19 +485,22 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 58px 70px;
     border-radius: 10px;
     background: #FFF;
-    position: absolute;
-    width: 1140px;
+    width: 100%; /* Замените фиксированную ширину на 100% */
     box-shadow: 0px 0px 20px 9px rgba(34, 60, 80, 0.2);
+    padding: 58px 70px;
+    position: absolute;
+    bottom: -300px;
+    left: 0;
 }
 
-.subscribe div:nth-child(1) {
-    max-width: 370px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.subscribe div {
+    width: 370px;
+}
+
+.subscribe div p {
+    margin-top: 20px;
 }
 
 /* footer */

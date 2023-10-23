@@ -1,0 +1,28 @@
+@media (max-width: 1140px) {
+    .container {
+        padding: 0 20px;
+    }
+    .many-features .col-6:nth-child(2) {
+        padding-left: 80px;
+    }
+}
+
+@media (max-width: 1099px) {
+    .hero-info h1 {
+        margin-top: unset;
+        font-size: 40px;
+    }
+    .hero-info p {
+        margin: 10px 0 25px 0;
+    }
+    .many-features h2 {
+        margin-top: unset;
+    }
+    h4 {
+        font-size: 14px;
+        line-height: unset;
+    }
+    .global-network-text {
+        margin: 100px 0;
+    }
+}
