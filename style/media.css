@@ -18,11 +18,101 @@
     .many-features h2 {
         margin-top: unset;
     }
-    h4 {
-        font-size: 14px;
-        line-height: unset;
-    }
     .global-network-text {
         margin: 100px 0;
+    }
+}
+
+@media (max-width: 900px) {
+    .nav {
+        gap: 20px;
+    }
+    .sign-btn {
+        gap: 15px;
+    }
+    .plan-selection-card {
+        padding: 20px 0;
+        gap: 50px;
+    }
+    .plan-selection-card h4 {
+        font-size: 16px;
+    }
+    .plan-selection-card p {
+        font-size: 12px;
+    }
+    .client-review-text {
+        font-size: 14px;
+    }
+    .client-name h4 {
+        font-size: 16px;
+    }
+    .client-name p {
+        font-size: 12px;
+    }
+    .client {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 800px) {
+    .header {
+        padding: 25px 0;
+    }
+    .nav, .sign-btn {
+        display: none;
+    }
+    .burger-menu {
+        display: unset;
+    }
+    .hero-info .col-6 {
+        width: 100%;
+    }
+    .many-features .col-6:nth-child(2) {
+        padding-left: 15px;
+    }
+    .hero {
+        margin-top: unset;
+    }
+    .many-features .col-6 {
+        width: 100%;
+    }
+    .hero .row:nth-child(1) {
+        flex-direction: column-reverse;
+    }
+    .row {
+        text-align: center;
+    }
+    .option {
+        gap: 15px;
+        align-items: center;
+    }
+    .customer .row {
+        flex-direction: column;
+    }
+    .client-wrapper .col-4 {
+        width: 100%;
+        text-align: left;
+    }
+    .plan-and-network {
+        margin-top: unset;
+    }
+    .subscribe h2 {
+        font-size: 20px;
+    }
+    .subscribe p {
+        font-size: 12px;
+    }
+    .plan-selection .row {
+        flex-direction: column;
+
+    }
+    .plan-selection .row .col-4 {
+        width: 100%;
+    }
+    .global-network-text {
+        margin: 50px 0;
+    }
+    .footer-wrapper {
+        flex-flow: row wrap;
     }
 }

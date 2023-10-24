@@ -168,6 +168,12 @@ button {
     border: 1px solid #F53855;
 }
 
+.burger-menu {
+    background-color: transparent;
+    border: none;
+    display: none;
+}
+
 /* Hero */
 
 .hero {
@@ -285,7 +291,7 @@ button {
 }
 
 .plan-selection-text p {
-    width: 555px;
+    max-width: 555px;
 }
 
 .plan-selection-card {
@@ -358,13 +364,13 @@ button {
 
 .global-network-text h2 {
     line-height: 50px; /* 142.857% */
-    width: 383px;
+    max-width: 383px;
 }
 
 .global-network-text p {
     font-size: 16px;
     line-height: 30px; /* 187.5% */
-    width: 555px;
+    max-width: 555px;
 }
 
 .global-network-text p span {
@@ -401,11 +407,11 @@ button {
 }
 
 .customer-text h2 {
-    width: 447px;
+    max-width: 447px;
 }
 
 .customer-text p {
-    width: 555px;
+    max-width: 555px;
 }
 
 .client-wrapper {
